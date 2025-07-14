@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adhareu.github.io/asifiqbal-portfolio/sitemap.xml
