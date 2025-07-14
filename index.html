@@ -5,50 +5,88 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Asif Iqbal – Senior .NET Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f9f9f9;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #eef2f3, #ffffff);
       color: #333;
     }
+    header {
+      background: #1f2937;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.1em;
+      color: #d1d5db;
+    }
     .container {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 40px auto;
       padding: 20px;
-      background: #fff;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      border-radius: 10px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+      animation: fadeIn 1s ease-in-out;
     }
-    h1, h2, h3 {
-      color: #2c3e50;
+    h2 {
+      color: #111827;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
     }
     a {
-      color: #007acc;
+      color: #2563eb;
       text-decoration: none;
     }
     a:hover {
       text-decoration: underline;
     }
-    ul {
-      padding-left: 20px;
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #6b7280;
     }
     .section {
-      margin-bottom: 30px;
+      margin-bottom: 40px;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
 <body>
-  <div class="container">
+  <header>
     <h1>Asif Iqbal</h1>
-    <p><strong>Senior .NET Developer</strong> | Toronto, ON (Relocating Sept 2025)<br>
-    <a href="mailto:adhareu@gmail.com">adhareu@gmail.com</a> | 
-    <a href="https://linkedin.com/in/kmasifiqbal" target="_blank">LinkedIn</a></p>
+    <p>Senior .NET Developer | Toronto, ON (Relocating Sept 2025)</p>
+    <p><a href="mailto:adhareu@gmail.com" style="color:#60a5fa;">adhareu@gmail.com</a> | 
+       <a href="https://linkedin.com/in/kmasifiqbal" style="color:#60a5fa;" target="_blank">LinkedIn</a></p>
+  </header>
 
+  <div class="container">
     <div class="section">
       <h2>About Me</h2>
-      <p>Results-driven Senior .NET Developer with 14+ years of experience in designing and building scalable, enterprise-grade solutions across 11 countries. I specialize in C#, .NET Core, ASP.NET Core, and Microservices architecture. Passionate about solving complex technical problems, leading Agile teams, and enabling digital transformation for global clients.</p>
+      <p>Results-driven Senior .NET Developer with 14+ years of experience designing scalable, enterprise-grade solutions across 11 countries. Specialized in .NET Core, Microservices, and Agile development practices. Passionate about solving complex problems and leading cross-functional teams.</p>
     </div>
 
     <div class="section">
@@ -57,7 +95,7 @@
         <li><strong>Languages/Frameworks:</strong> C#, .NET Core, ASP.NET Core, MVC, Web API, Angular</li>
         <li><strong>Databases:</strong> SQL Server, PostgreSQL, EF Core, Dapper</li>
         <li><strong>Cloud/DevOps:</strong> Azure (in progress), Docker, Git, CI/CD</li>
-        <li><strong>Architecture:</strong> Clean Architecture, Microservices, CQRS, Repository Pattern</li>
+        <li><strong>Architecture:</strong> Clean Architecture, Microservices, CQRS</li>
         <li><strong>Tools:</strong> RabbitMQ, Serilog, REST, SOAP, Agile/Scrum</li>
       </ul>
     </div>
@@ -67,30 +105,31 @@
       <h3>Roseosoft – Owner-Operator (Remote, Canada)</h3>
       <p><em>June 2025 – Present</em></p>
       <ul>
-        <li>Delivered full-stack .NET Core solutions with Clean Architecture</li>
-        <li>Managed project lifecycle, client communication, and deployments</li>
+        <li>Delivered .NET Core solutions with Clean Architecture</li>
+        <li>Managed full SDLC, deployments, and client communication</li>
       </ul>
 
-      <h3>ASAI Management Services – Deputy Lead Software Engineer (Dhaka)</h3>
+      <h3>ASAI Management Services – Deputy Lead Software Engineer</h3>
       <p><em>Mar 2024 – Jul 2025</em></p>
       <ul>
-        <li>Led Agile team, deployed optimized APIs, and standardized financial systems</li>
-        <li>Enhanced scalability and reduced errors in financial reporting</li>
+        <li>Led a team of 7 to deliver mission-critical digital banking systems</li>
+        <li>Reduced processing time by 60% through optimized APIs</li>
       </ul>
 
-      <h3>TUV Rheinland – Senior Supervisor (Dhaka)</h3>
+      <h3>TUV Rheinland – Senior Supervisor</h3>
       <p><em>Dec 2018 – Mar 2020</em></p>
       <ul>
-        <li>Boosted system performance and implemented automated dashboards</li>
+        <li>Enhanced LIMS performance by 70%</li>
+        <li>Reduced paperwork by 90% via dashboard automation</li>
       </ul>
     </div>
 
     <div class="section">
       <h2>Key Achievements</h2>
       <ul>
-        <li>🏦 Led core banking system rollout across multiple countries</li>
-        <li>🚀 Reduced API processing time by 60%</li>
-        <li>📊 Standardized reporting system used by 11+ entities globally</li>
+        <li>🏦 Implemented core banking systems across 11 countries</li>
+        <li>🚀 Boosted API performance by 60%</li>
+        <li>📊 Standardized global reporting infrastructure</li>
       </ul>
     </div>
 
@@ -100,5 +139,9 @@
       LinkedIn: <a href="https://linkedin.com/in/kmasifiqbal" target="_blank">linkedin.com/in/kmasifiqbal</a></p>
     </div>
   </div>
+
+  <footer>
+    &copy; 2025 Asif Iqbal | Built with ❤ using HTML & CSS
+  </footer>
 </body>
 </html>
